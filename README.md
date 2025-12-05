@@ -1,4 +1,4 @@
-# Heisenberg Model Simulation (Scaled-Down Version)
+# Heisenberg Model Simulation (Scaled Down Version to 5 qubits)
 
 This project implements the Heisenberg Hamiltonian with nearest-neighbour couplings and local fields, simulates time evolution using first-order Trotterization, and compares different initial qubit layouts when transpiling to the FakeTorino backend.
 
