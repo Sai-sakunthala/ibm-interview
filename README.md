@@ -65,28 +65,3 @@ AerSimulator raises a memory-limit error when attempting to simulate them.
 
 ### 3. ZNE / NEAT
 Not implemented due to external tool requirements.  
-Left `TODO` notes where they would fit.
-
----
-
-## Why This Reduced Version Is Still Valid
-
-- All major components of the assignment are implemented:
-  - Hamiltonian  
-  - Time evolution  
-  - Observable  
-  - Ideal value  
-  - Transpilation  
-  - Layout comparison  
-  - Noisy simulation
-
-- Only the qubit count is reduced so the code can actually run locally.  
-- The workflow directly scales to 20 qubits on a larger machine.
-
----
-
-## How to Run
-
-```bash
-pip install qiskit qiskit-aer qiskit-ibm-runtime
-python main.py
