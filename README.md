@@ -6,8 +6,6 @@ The original assignment target was **20 qubits**, but a full 20-qubit statevecto
 To make the code runnable end-to-end, I used **n = 5 qubits** while keeping the same structure and workflow.  
 Only the qubit count is changed; everything else follows the same logic.
 
----
-
 ## Features Implemented
 
 ### 1. Hamiltonian Construction
@@ -52,7 +50,6 @@ are printed.
 - The transpiled circuits are too large to simulate, so the noisy simulation runs on the decomposed original circuit  
 - Expectation value computed from measurement statistics
 
----
 
 ## What Could Not Be Run Locally
 
